@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    background-color: rgb(246, 251, 253);
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    margin: 30px 400px 0px 400px;
+    background-color: cornflowerblue;
+    color: azure;
+    border-radius: 3px;
+}
+
+.container{
+    margin: 0px 400px 50px 400px;  
+    padding: 30px;
+    background-color: whitesmoke;
+    box-shadow: -0.2rem 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+input, p, textarea{
+    margin: 20px;
+}
+input{
+    padding: 10px;
+}
+textarea{
+    padding: 10px 20px 10px 5px;
+}
+
+.save{
+    background-color:cornflowerblue;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    padding: 10px 20px 10px 20px;
+}
+
+.save:hover{
+    background-color: rgb(64, 113, 204);
+}
