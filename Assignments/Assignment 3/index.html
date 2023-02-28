@@ -7,29 +7,48 @@
     <title>Student Form</title>
     <link rel="stylesheet" href="CSS/index_style.css">
 </head>
+
 <body>
-   <form action=""> 
-    <h3>Registration Form</h3>
-        <div class="container">
-        <span class="span-container">
-          <p class="para"> Id Number <input type="text" placeholder="ID">
-           Name<input type="text" placeholder="Name"></p>
-        </span>
-        
-        <br>
-        <span class="span-container">
-           <p class="para">Department<input type="text" placeholder="Department">
-            Date Of Birth<input type="Date" name="Dob" id="dob" required></p> 
-        </span>
+    <div class="container">
+        <h3>Student Form</h3>
 
-        <br><span>
-        <p>Hobbies</p>
-        <textarea name="Hubbies" id="01" placeholder="Write Your Hobbies" rows="5" cols="40">Hobbies
-        </textarea></span>
-        <br><br>
+        <form action="#">
 
-        <input class="save" type="submit" name="Save" value="Save">
+            <div class="student-details">
+                <div class="input-box">
+                    <span class="details">ID Number</span>
+                    <input type="text" placeholder="Enter Your ID" required>
+                </div> 
+
+                <div class="input-box">
+                    <span class="details">Name</span>
+                    <input type="text" placeholder="Enter Your Name" required>
+                </div>  
+
+                <div class="input-box">
+                    <span class="details">Department</span>
+                    <input type="text" placeholder="Enter Your Department" required>
+                </div>  
+                
+                <div class="input-box">
+                    <span class="details">Date Of Birth</span>
+                    <input type="Date" name = "dob" required>
+                </div>  
+            </div>  
+
+            <br>
+            <span class="textarea-input-box">
+                <p class="textarea-details">Hobbies</p>
+                <textarea name="Hobbies" id="01" rows="5" cols="38">Enter Your Hobbies
+                </textarea>
+            </span>
+            <br><br>
+
+            <input class="save" type="submit" value="Save">
+            
+        </form>
     </div>
-    </form>
+   
 </body>
+
 </html>
